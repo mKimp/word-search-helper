@@ -4,8 +4,7 @@ class TrieNode {
     this.children = new Map();
   }
 }
-
-class Trie {
+class AutoCompleter {
   constructor() {
     this.root = new TrieNode();
   }
@@ -74,17 +73,19 @@ class Trie {
   }
 }
 
-let words = [
-  "hello",
-  "dog",
-  "hell",
-  "cat",
-  "a",
-  "hel",
-  "help",
-  "helps",
-  "helping",
-];
-let trie = new Trie();
-words.forEach((word) => trie.insert(word));
-console.log(trie.autoComplete("dog"));
+module.exports = AutoCompleter;
+
+// let words = [
+//   "hello",
+//   "dog",
+//   "hell",
+//   "cat",
+//   "a",
+//   "hel",
+//   "help",
+//   "helps",
+//   "helping",
+// ];
+// let trie = new AutoCompleter();
+// words.forEach((word) => trie.insert(word));
+// console.log(trie.autoComplete("hel"));
