@@ -1,7 +1,7 @@
 {
   "name": "word-search-helper",
   "version": "1.0.0",
-  "description": "Auto complete searching the words with prefix. ",
+  "description": "A simple auto complete word search with the help of our trie words tree for Node.",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
