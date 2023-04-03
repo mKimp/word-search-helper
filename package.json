@@ -1,6 +1,6 @@
 {
   "name": "word-search-helper",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A simple auto complete word search with the help of our trie words tree for Node.",
   "main": "index.js",
   "scripts": {
