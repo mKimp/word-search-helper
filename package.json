@@ -1,0 +1,30 @@
+{
+  "name": "word-search-helper",
+  "version": "1.0.0",
+  "description": "Auto complete searching the words with prefix. ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mKimp/word-search-helper.git"
+  },
+  "keywords": [
+    "auto",
+    "complete",
+    "search",
+    "word",
+    "auto",
+    "suggest",
+    "auto-complete",
+    "search-word",
+    "auto-search"
+  ],
+  "author": "Kim Ma",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mKimp/word-search-helper/issues"
+  },
+  "homepage": "https://github.com/mKimp/word-search-helper#readme"
+}
