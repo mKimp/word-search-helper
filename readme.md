@@ -1,5 +1,7 @@
 # Word Search Helper
 
+** This package is for string searching/inserting only **
+
 ## Features
 
 - `insert(word)`: insert a word into the our words tree
@@ -29,13 +31,13 @@ Be caution: the function `insert` take a word each time. So if you have a list o
 
 `const isFound = myTree.search(word)`
 
-`isFound` either is true if we have the word in our words tree or false, otherwises.
+`isFound` either is `true` if we have the word in our words tree or `false`, otherwises.
 
 ## Search the prefix in our words tree
 
 `const isFound = myTree.startsWith(prefix)`
 
-`isFound` either is true if we have the words starting with the provided prefix in our words tree or false, otherwises.
+`isFound` either is `true` if we have the words starting with the provided prefix in our words tree or `false`, otherwises.
 
 ## Auto complete search for the word in our words tree
 
@@ -43,7 +45,8 @@ For example: we have these words in our words tree:
 
 `let words = [ "cat is eating","hello","dog","hell","cat","can","a","hel","help","helps","helping"];`
 
-We search for every words that start with `hel`
+We search for every words that start with `hel`.
+
 `const listOfWords = myTree.autoComplete(hel)`
 
-`listOfWords` returns back the list of the words `[ 'hel', 'hell', 'hello', 'help', 'helps', 'helping']`
+`listOfWords` returns back the list of the words `[ 'hel', 'hell', 'hello', 'help', 'helps', 'helping']`.
