@@ -74,18 +74,3 @@ class AutoCompleter {
 }
 
 module.exports = AutoCompleter;
-
-// let words = [
-//   "hello",
-//   "dog",
-//   "hell",
-//   "cat",
-//   "a",
-//   "hel",
-//   "help",
-//   "helps",
-//   "helping",
-// ];
-// let trie = new AutoCompleter();
-// words.forEach((word) => trie.insert(word));
-// console.log(trie.autoComplete("hel"));
